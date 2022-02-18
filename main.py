@@ -2,7 +2,7 @@ import discord
 
 from discord.ext import commands
 
-TOKEN = 'ODg3MzkwMzc2MDYxNzE0NDMy.YUDcsA.J7nGtz_mDPXTiYU2xthCBPGrQqg'
+TOKEN = ''
 
 client = commands.Bot(command_prefix='r!')
 
@@ -18,6 +18,7 @@ event_data = {
     "icon_url":'',
 }
 
+#Verifica se o bot conseguiu se conectar. Caso algo dê errado provavelmente o token tá errado.
 @client.event
 async def on_ready():
     print(f"Logged in as {client.user}")
