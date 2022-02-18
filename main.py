@@ -2,7 +2,7 @@ import discord
 
 from discord.ext import commands
 
-TOKEN = ''
+TOKEN = 'nota da direção: não comitar o token'
 
 client = commands.Bot(command_prefix='r!')
 
